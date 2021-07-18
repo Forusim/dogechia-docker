@@ -30,4 +30,4 @@ On first start with recommended `-e KEYS=type`:
 * Open docker shell `docker exec -it <containerid> sh`
 * Check synchronization `dogechia show -s -c`
 * Check farming `dogechia farm summary`
-* Check balance `dogechia wallet show summary` 
+* Check balance `dogechia wallet show` 
