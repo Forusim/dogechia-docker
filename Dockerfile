@@ -3,8 +3,6 @@ FROM ubuntu:latest
 ARG DEBIAN_FRONTEND="noninteractive"
 ARG BRANCH="main"
 
-EXPOSE 42069
-
 ENV keys="generate"
 ENV harvester="false"
 ENV farmer="false"
@@ -22,6 +20,7 @@ RUN git clone --branch ${BRANCH} https://github.com/DogeChia/doge-chia.git --rec
 
 ENV PATH=/doge-chia/venv/bin/:$PATH
 
+EXPOSE 42069
 WORKDIR /doge-chia
 
 COPY ./entrypoint.sh entrypoint.sh
