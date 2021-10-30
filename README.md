@@ -1,7 +1,7 @@
-<img src="https://dogechia.org/wp-content/uploads/2021/07/cropped-icon_256x256.png" width="100">
+<img src="https://dogechi.org/wp-content/uploads/2021/07/cropped-icon_256x256.png" width="100">
 
 # DogeChia Docker Container
-https://dogechia.org/
+https://dogechi.org/
 
 ## Configuration
 Required configuration:
